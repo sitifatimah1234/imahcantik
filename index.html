@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="style2" href="style.css">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">My_Website</div>
+    <nav>
+      <ul>
+        <li><a href="#beranda">BERANDA</a></li>
+         <li><a href="#profil">PROFIL</a></li>
+        <li><a href="#audio-video">AUDIO VIDEO</a></li>
+        <li><a href="#tentang">TENTANG</a></li>
+        <li><a href="#berita">BERITA</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="beranda">
+    <h2>Selamat Datang di Website Saya</h2>
+    <p>Ini adalah halaman beranda.</p>
+  </section>
+
+
+  <section id="profil">
+    <div>
+        <h3 align="center" style="color: aliceblue;">Profil</h3>
+        <table border="2" align="center"   cellspacing="2" cellpadding="3" style="color: aliceblue; " >
+            <tr align="center">
+                <td bgcolor="orange" colspan="3" style="padding: 10px; font-family:cursive; font-size: 30px;">Biodata Diri</td>
+            </tr>
+            <tr >
+                <td rowspan="13"><img src="imah cantik.jpeg" height="355" width="250"></td>
+                <td>Nama Lengkap</td>
+                <td> Siti Fatimah</td>
+            </tr>
+            <tr>
+                <td>Nama Panggilan </td>
+                <td> imah</td>
+            </tr>
+            <tr>
+                <td>Nim </td>
+                <td> 16323050</td>
+            </tr>
+            <tr>
+                <td>Kewarganegaraan </td>
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin </td>
+                <td> perempuan </td>
+            </tr>
+            <tr>
+                <td>Golongan Darah </td>
+                <td>(-)</td>
+            </tr>
+            <tr>
+                <td>Tempat Tanggal Lahir </td>
+                <td> waitonipa 18-02-2004</td>
+            </tr>
+            <tr>
+                <td>Alamat </td>
+                <td>Jl.Ra kartini</td>
+            </tr>
+            <tr>
+                <td>Status </td>
+                <td> Mahasiswa</td>
+            </tr>
+            <tr>
+                <td>Prodi/Jurusan </td>
+                <td>D3 Manajemen Informatika</td>
+            </tr>
+            <tr>
+                <td>Hobi </td>
+                <td>memasak </td>
+            </tr>
+            <tr>
+                <td>Alamat Email </td>
+                <td>sitifatimah@gamil.com</td>
+            </tr>
+            <tr>
+                <td>No Telpon </td>
+                <td>081360390332</td>
+            </tr>
+        </table>
+    </div>
+
+    </section>
+    <section id="audio-video">
+        <h2>Audio dan Video</h2>
+        <p>Ini adalah halaman audio dan video.</p>
+        <audio controls src="lagu fakfak.mp3"></audio>
+        <video controls autoplay src="fatimah cantik.mp4" width="350" height="200"></video>
+    
+      </section>
+    
+      <section id="tentang">
+        <h2>Tentang Fatimah</h2>
+        <p>
+            Halo guys nama Saya Siti Fatimah,Saya lahir di waitonipa Umur Saya 20 tahun,
+            Asal sekolah saya di SMA Negeri 1 Fakfak saya lulusan Thun 2023 saya kuliah di Politeknik negeri fakfak 
+            Jurusan manajemen informatika, Hoby Saya menari, Saya tinggal di Dulpok,Saya anak pertama dari 4 bersaudara, Terimakasih
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Sequi a maxime eius maiores eaque ut corrupti explicabo dolores rem deleniti, 
+            pariatur animi nam aperiam quo voluptatem asperiores, quia nulla eos!.
+            Sequi a maxime eius maiores eaque ut corrupti explicabo dolores rem deleniti
+            Sequi a maxime eius maiores eaque ut corrupti explicabo dolores rem deleniti</p>
+      </section>
+    
+      <section id="berita">
+        <h2>Berita Terbaru</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In,
+             natus ex! Minus ex dolores nisi consequuntur tempore perspiciatis libero ea ipsa vitae soluta? 
+             Unde sint laboriosam quisquam dolorem corrupti voluptatem?.
+             Sequi a maxime eius maiores eaque ut corrupti explicabo dolores rem deleniti
+             Sequi a maxime eius maiores eaque ut corrupti explicabo dolores rem deleniti</p>
+      </section>
+    
+      <footer>
+        <p>&copy; 2024 Fatimah</p>
+      </footer>
+    
+      <script>
+        // Add smooth scrolling behavior
+        document.querySelectorAll('nav a').forEach(link => {
+          link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetId = e.target.getAttribute('href');
+            const targetSection = document.querySelector(targetId);
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+          });
+        });
+      </script>
+    </body>
+    </html>
+      
